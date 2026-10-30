@@ -1,0 +1,9 @@
+{
+    "student_id": "230103027",
+    "N": 1344,
+    "M": 672,
+    "median_naive_ns": 305945400.0,
+    "median_interchanged_ns": 43577100.0,
+    "speedup": 7.0207838520690915,
+    "numba_accelerated": true
+}
