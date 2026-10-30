@@ -1,0 +1,7 @@
+{
+    "student_id": "230103027",
+    "arithmetic_intensity_flops_per_byte": 1.875,
+    "execution_regime": "Memory-Bandwidth Bound",
+    "rationale": "Stencil updates stream large arrays through cache/DRAM with low arithmetic intensity, saturating memory bandwidth before compute units peak.",
+    "max_theoretical_speedup_amdahl": 0.0
+}

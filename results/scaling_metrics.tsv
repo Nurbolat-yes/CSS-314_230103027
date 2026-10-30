@@ -1,0 +1,13 @@
+# --- STRONG SCALING ---
+P	runtime_s	speedup_SP	efficiency_EP	amdahl_serial_fraction_s
+1	0.116970	1.0000	100.00%	0.0000
+2	0.413051	0.2832	14.16%	1.0000
+4	0.284730	0.4108	10.27%	1.0000
+8	0.331789	0.3525	4.41%	1.0000
+
+# --- WEAK SCALING ---
+P	matrix_size_NP	runtime_weak_s	scaled_speedup_SP
+1	1344x1344	0.124568	1.0000
+2	1901x1901	0.352583	0.3532
+4	2688x2688	0.585647	0.2127
+8	3802x3802	0.859674	0.1449
